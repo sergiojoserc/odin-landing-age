@@ -30,7 +30,7 @@ body{
 
 .navbar-container,
 .header-container{
- background-color: #CCD5AE;
+ background-color: #A3A380;
  color: white;
  padding: 0 256px;
 }
@@ -78,20 +78,21 @@ a{
 
 }
 
+.header-btn{
+
+    background: #FAEDCD;
+}
+
 .header-info,
 .header-img{
     max-width: 425px;
     max-height: 264px;
 }
 
-.header-btn{
 
-    background: #FAEDCD;
-}
 
 .header-img{
     flex: 1.25;
-
     border-radius: 8px;
 
 }
@@ -103,3 +104,4 @@ button {
     color: #A3A380;
     font-weight: 700;
 }
+
