@@ -144,6 +144,8 @@ button {
 
 .card img{
     border-radius: 16px;
+    border: 6px solid #A3A38038;
+
     max-width: 164px;
     height: 128px;
 }
@@ -199,4 +201,15 @@ button {
 .signup-btn{
     background-color: white;
     border: 2px solid #FEFAE0;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    background-color: #A3A380;
+    color: white;
 }
