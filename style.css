@@ -2,6 +2,7 @@
 
 h1,
 h2,
+h3,
 p,
 button{
     margin: 0;
@@ -105,7 +106,7 @@ a{
 }
 
 button {
-    padding: 8px 16px;
+    padding: 8px 32px;
     border-radius: 8px;
     border: none;
     color: #A3A380;
@@ -170,4 +171,32 @@ button {
 .quote-author{
     align-self: flex-end;
     font-weight: 700;
+}
+
+/* CTA Section */
+
+
+.signup-section{
+    padding: 96px 256px;
+    background-color: #FEFAE0;
+}
+
+.signup-container{
+    background-color: #A3A380;
+    border-radius: 8px;
+    padding: 32px 64px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signup-text{
+    color: white;
+
+}
+
+.signup-btn{
+    background-color: white;
+    border: 2px solid #FEFAE0;
 }
